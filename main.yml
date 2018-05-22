@@ -1,6 +1,0 @@
----
-- hosts: all
-  sudo: yes
-  tasks:
-    - name: exec shell
-      shell: echo "test" > /tmp/test
